@@ -16,8 +16,6 @@ class MyWidget(QWidget):
         self.list = [self.rbJSJ, self.rbRJGC, self.rbTXGC, self.rbRGZN]
 
 
-
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     w = MyWidget()
